@@ -6,7 +6,7 @@ const Navbar = () => {
 
     useEffect(() => {
         let scrollpos = window.scrollY;
-        const header: any = document.querySelector(".navbar");
+        const header: Element | any = document.querySelector(".navbar");
         if (header) {
             const header_height = header.offsetHeight;
 
@@ -22,8 +22,6 @@ const Navbar = () => {
                 console.log(scrollpos);
             })
         }
-
-
 
     }, []);
 

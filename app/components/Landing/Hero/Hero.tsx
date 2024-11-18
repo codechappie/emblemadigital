@@ -315,7 +315,7 @@ const Hero = () => {
 
 
                                 </div>
-                                <p className="text-secondary lead">"¡Me encanta cómo trabajaron en mi sitio web! Desde el diseño hasta la funcionalidad, todo quedó increíble. ¡Gracias, equipo de Emblema Digital, por hacer que mi negocio brille en línea!"</p>
+                                <p className="text-secondary lead">&quot;¡Me encanta cómo trabajaron en mi sitio web! Desde el diseño hasta la funcionalidad, todo quedó increíble. ¡Gracias, equipo de Emblema Digital, por hacer que mi negocio brille en línea!&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
                                     <img src="https://themewagon.github.io/klar/img/webp/person14.webp" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />
@@ -325,7 +325,6 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </div>
-
 
                         </div>
                         <div className="col-12 col-lg-6">
@@ -367,7 +366,7 @@ const Hero = () => {
 
 
                                 </div>
-                                <p className="lead">"¡Excelente servicio! La comunicación fue super clara y siempre estuvieron pendientes de mis necesidades. Definitivamente recomiendo a Emblema Digital a todos los emprendedores que buscan calidad y dedicación."</p>
+                                <p className="lead">&quot;¡Excelente servicio! La comunicación fue super clara y siempre estuvieron pendientes de mis necesidades. Definitivamente recomiendo a Emblema Digital a todos los emprendedores que buscan calidad y dedicación.&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top pt-3">
                                     <img src="https://themewagon.github.io/klar/img/webp/person16.webp" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />
@@ -415,7 +414,7 @@ const Hero = () => {
                                     </svg>
 
                                 </div>
-                                <p className="lead">"Me ayudaron con el diseño de mi logo, sino también a estructurar toda mi estrategia digital. ¡El cambio en mi negocio ha sido brutal! Super agradecido con todo el equipo."</p>
+                                <p className="lead">&quot;Me ayudaron con el diseño de mi logo, sino también a estructurar toda mi estrategia digital. ¡El cambio en mi negocio ha sido brutal! Super agradecido con todo el equipo.&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
                                     <img src="https://themewagon.github.io/klar/img/webp/person13.webp" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />

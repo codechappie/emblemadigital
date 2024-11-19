@@ -83,7 +83,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="bg-black py-vh-3">
+            <div className="bg-black py-vh-3" id="#proyectos">
                 <div className="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
 
                     <div className="row gx-5">
@@ -465,7 +465,7 @@ const Hero = () => {
                                 <textarea ></textarea>
                             </div>
 
-                            <Link href="#" className="form-btn btn btn-xl btn-light">Sign up
+                            <Link href="#" className="form-btn btn btn-xl btn-light">Más información
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="arrow-inline bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fillRule="evenodd"

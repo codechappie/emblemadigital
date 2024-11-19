@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 
 import "aos/dist/aos.css";
+import Hero from "./components/Landing/Hero/Hero";
 
 
 export default function Home() {
@@ -18,6 +19,6 @@ export default function Home() {
 
   return (
     <Layout>
-
+      <Hero />
     </Layout>)
 }

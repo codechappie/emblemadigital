@@ -1,14 +1,12 @@
 import React, { PropsWithChildren } from 'react'
-import Navbar from '../Landing/Navbar/Navbar'
-import Hero from '../Landing/Hero/Hero'
 import Footer from '../Landing/Footer/Footer'
+import Navbar from '../Landing/Navbar/Navbar'
 
-const Layout: React.FC<PropsWithChildren> = () => {
+const Layout: React.FC<PropsWithChildren> = ({ children }) => {
     return (
         <>
             <Navbar />
-            <Hero />
-
+            {children}
             <Footer />
         </>
     )

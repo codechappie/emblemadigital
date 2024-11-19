@@ -5,35 +5,47 @@ import Layout from '../components/LandingLayout/Layout'
 const page = () => {
     return (
         <Layout>
-            <div className="bg-black py-vh-3" id="#proyectos">
-                <div className="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
+            <div className="bg-black py-vh-3">
+                <div className="container bg-black px-vw-5 py-vh-3 rounded-5">
 
                     <div className="row gx-5">
                         <div className="col-12 col-md-6">
                             <div className="p-2 pt-0 mt-5" data-aos="fade">
-                                <span className="h5 text-secondary fw-lighter">Nuestros Servicios</span>
-                                <h2 className="display-4">Satisface las necesidades de tu negocio y crece desde el inicio.</h2>
+                                <span className="h5 text-secondary fw-lighter">Algunos de nuestros proyectos</span>
+                                <h2 className="display-4">Proyectos exitosos que reflejan nuestra experiencia y compromiso con la excelencia.</h2>
                             </div>
                             <div className="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
                                 <div className="bg-dark shadow rounded-5 p-0">
-                                    <img src="https://cdn.dribbble.com/userupload/17427533/file/original-ff467291c96cfc602917f815fd4c7d69.png?resize=400x0" width="582" height="390"
+                                    <img src="https://imgur.com/9F5DoqJ.jpg" width="582" height="390"
                                         alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                     <div className="p-5">
-                                        <h2 className="fw-lighter">Páginas Web</h2>
-                                        <p className="pb-4 text-secondary">Creamos tu página web a medida, adaptada a las necesidades de tu negocio, 100% gestionable y con un diseño y calidad únicos.</p>
-                                        <a href="#" className="link-fancy link-fancy-light">Leer más</a>
+                                        <h2 className="fw-lighter">Esios - Red Eléctrica de España</h2>
+                                        <p className="pb-4 text-secondary">Migración de aplicación web a tecnologías modernas, maquetación, optimización y consumo de servicios web para mostrar gráficos y detalles interactivos.</p>
+                                        <a href="https://www.esios.ree.es/es" className="link-fancy link-fancy-light">Ver proyecto</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
+                                <div className="bg-dark shadow rounded-5 p-0">
+                                    <img src="https://imgur.com/DLlEpx1.jpg" width="582" height="327"
+                                        alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
+                                    <div className="p-5">
+                                        <h2 className="fw-lighter">CasaMia Novedades</h2>
+                                        <p className="pb-4 text-secondary">Desarrollamos una tienda en línea personalizada para Casa Mía, mostrando sus productos de importación a nivel nacional.</p>
+                                        <a href="https://casamiahogar.com/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent" data-aos="zoom-in-up">
                                 <div className="bg-dark shadow rounded-5 p-0">
-                                    <img src="https://www.digitalauthority.me/wp-content/uploads/2022/04/shutterstock_1192353367-1.jpg" width="582" height="327"
+                                    <img src="https://imgur.com/nyDcHbo.jpg" width="582" height="327"
                                         alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                     <div className="p-5">
-                                        <h2 className="fw-lighter">Redes Sociales</h2>
-                                        <p className="pb-4 text-secondary">Gestión y optimización de campañas digitales. Mejoramos el rendimiento de tus campañas en Facebook Ads.</p>
-                                        <a href="#" className="link-fancy link-fancy-light">Leer más</a>
+                                        <h2 className="fw-lighter">Curriculum - Herramienta</h2>
+                                        <p className="pb-4 text-secondary">Desarrollamos una herramienta web para crear y personalizar currículums en línea, permitiendo tener su CV en linea y actualizable en todo momento.</p>
+                                        <a href="https://arcadepapel.net/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                     </div>
                                 </div>
                             </div>
@@ -41,25 +53,36 @@ const page = () => {
                         <div className="col-12 col-md-6">
                             <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
                                 <div className="bg-dark shadow rounded-5 p-0">
-                                    <img src="https://cdn.dribbble.com/userupload/13020854/file/original-565089b6c992db586b93264eea2ea08f.png?resize=400x300&vertical=center" width="582" height="327"
+                                    <img src="https://imgur.com/meIn4Rf.jpg" width="582" height="327"
                                         alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                     <div className="p-5">
-                                        <h2 className="fw-lighter">Tienda
-                                            Virtual</h2>
-                                        <p className="pb-4 text-secondary">Desarrollamos tu tienda online y la preparamos para comenzar a vender. Agrega tus productos y empieza a recibir pedidos.</p>
-                                        <a href="#" className="link-fancy link-fancy-light">Leer más</a>
+                                        <h2 className="fw-lighter">Arca de Papel - Editorial</h2>
+                                        <p className="pb-4 text-secondary">Desarrollamos a medida la página web de Arca de Papel, utilizando código moderno y tecnologías actuales para ofrecer un diseño personalizado, optimizado y adaptado a todas las plataformas.</p>
+                                        <a href="https://arcadepapel.net/" className="link-fancy link-fancy-light">Ver proyecto</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
+                                <div className="bg-dark shadow rounded-5 p-0">
+                                    <img src="https://imgur.com/CnaYDX6.jpg" width="582" height="442"
+                                        alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
+                                    <div className="p-5">
+                                        <h2 className="fw-lighter">Lidia React Editor - Herramienta</h2>
+                                        <p className="pb-4 text-secondary">Desarrollamos un editor de texto enriquecido a medida para React, con funciones configurables y optimizadas para una edición avanzada.</p>
+                                        <a href="https://lidia-editor.codechappie.com/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent" data-aos="zoom-in-up">
                                 <div className="bg-dark shadow rounded-5 p-0">
-                                    <img src="https://www.accesscreative.ac.uk/wp-content/uploads/2024/05/Graphic-Design-student-making-a-design.jpg" width="582" height="442"
+                                    <img src="https://imgur.com/PDF3Xxe.jpg" width="582" height="442"
                                         alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                     <div className="p-5">
-                                        <h2 className="fw-lighter">Diseño Grafico</h2>
-                                        <p className="pb-4 text-secondary">Te brindamos diseño gráfico para potenciar tu marca con logotipos, folletos y otros diseños creativos y efectivos que destaquen tu identidad y atraigan a tu audiencia.</p>
-                                        <a href="#" className="link-fancy link-fancy-light">Leer más</a>
+                                        <h2 className="fw-lighter">Policia Huanuco</h2>
+                                        <p className="pb-4 text-secondary">Desarrollamos una página web informativa para la Policía de Huánuco, brindando acceso rápido a noticias, servicios y recursos importantes para la comunidad.</p>
+                                        <a href="https://pagina.policiapataamarilla.com" className="link-fancy link-fancy-light">Ver proyecto</a>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +90,6 @@ const page = () => {
                     </div>
 
                 </div>
-
             </div>
         </Layout>
     )

@@ -36,15 +36,16 @@ const Navbar = () => {
 
                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
                     <li className="nav-item">
-                        <Link className="nav-link fs-5" href="/proyectos" aria-label="Homepage">
+                        <a className="nav-link fs-5" href="/" aria-label="Inicio">
+                            Inicio
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link fs-5" href="/proyectos" aria-label="Proyectos">
                             Proyectos
                         </Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <a className="nav-link fs-5" href="content.html" aria-label="A sample content page">
-                            Content
-                        </a>
-                    </li> */}
+
 
                 </ul>
                 <Link href="#proyectos" aria-label="Check this"

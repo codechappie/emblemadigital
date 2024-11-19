@@ -1,8 +1,20 @@
 import React, { PropsWithChildren } from 'react'
 import Footer from '../Landing/Footer/Footer'
 import Navbar from '../Landing/Navbar/Navbar'
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Layout: React.FC<PropsWithChildren> = ({ children }) => {
+
+    useEffect(() => {
+        AOS.init({
+            easing: "ease-out-cubic",
+            duration: 800,
+            delay: 0
+        });
+    }, []);
+
     return (
         <>
             <Navbar />

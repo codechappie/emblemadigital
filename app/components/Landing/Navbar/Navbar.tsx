@@ -48,7 +48,7 @@ const Navbar = () => {
 
 
                 </ul>
-                <Link href="#proyectos" aria-label="Check this"
+                <Link href="https://wa.me/51986970093?text=Hola%2C+me+pueden+brindar+mas+informaci%C3%B3n" target='_blank' aria-label="Check this"
                     className="btn btn-outline-light">
                     <small>Contactanos</small>
                 </Link>

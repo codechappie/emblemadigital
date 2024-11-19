@@ -5,6 +5,20 @@ import Layout from '../components/LandingLayout/Layout'
 const page = () => {
     return (
         <Layout>
+            <head>
+                <title>Emblema Digital - Proyectos y Servicios</title>
+                <meta name="description" content="Mostramos una selección de trabajos destacados que reflejan nuestra experiencia en diseño y desarrollo web a medida." />
+                <meta name="author" content="codechappie" />
+                <meta name="keywords" content="diseño web, desarrollo web, sitios web a medida, diseño personalizado, soluciones digitales, diseño web responsive, desarrollo de sitios web, agencias de diseño web, desarrollo web profesional, páginas web funcionales, creación de sitios web, optimización web, diseño UX/UI, desarrollo front-end, desarrollo back-end" />
+                <meta name="robots" content="emblema, digital, web, diseño" />
+                <meta property="og:title" content="Emblema Digital - Proyectos y Servicios" />
+                <meta property="og:description" content="Mostramos una selección de trabajos destacados que reflejan nuestra experiencia en diseño y desarrollo web a medida." />
+                <meta property="og:image" content="http://localhost:3000/logo.png" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="theme-color" content="#000000" />
+                <link rel="canonical" href="https://emblemadigital.vercel.app" />
+            </head>
             <div className="bg-black py-vh-3">
                 <div className="container bg-black px-vw-5 py-vh-3 rounded-5">
 

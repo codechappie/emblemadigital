@@ -31,22 +31,22 @@ const Hero = () => {
             </div>
 
             <div className="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
-                <div className="container-fluid px-vw-5">
+                <div className="container-fluid px-vw-1">
                     <div className="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
-                    <div className="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+                    <div className="web-gallery row d-flex align-items-center position-relative justify-content-center px-0 g-5">
                         <div className="col-12 col-lg-3">
-                            <img src="https://themeui.net/wp-content/uploads/2023/07/positivus.jpg" width="2280" height="1732"
+                            <img src="https://imgur.com/7mQ21W3.png"
                                 alt="abstract image" className="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
                         </div>
                         <div className="col-12 col-lg-5 col-md-6 col-lg-3">
-                            <img src="https://themeui.net/wp-content/uploads/2023/07/positivus.jpg" width="1116" height="1578"
+                            <img src="https://imgur.com/uqM0wcv.png"
                                 alt="abstract image" className="img-fluid position-relative rounded-5 shadow" data-aos="fade-up"
                                 data-aos-duration="2000" />
                         </div>
                         <div className="col-12 col-lg-3 col-md-6 col-lg-3">
-                            <img src="https://themeui.net/wp-content/uploads/2023/07/positivus.jpg" width="1116" height="848"
+                            <img src="https://imgur.com/RYY8p9b.png"
                                 alt="abstract image" className="img-fluid position-relative rounded-5 shadow" data-aos="fade-up"
-                                data-aos-duration="3000" />
+                                data-aos-duration="2000" />
                         </div>
                     </div>
                 </div>
@@ -148,17 +148,25 @@ const Hero = () => {
 
             </div>
             <div className="bg-dark position-relative">
-                <div className="container px-vw-5 py-vh-5">
+                <div className="container px-vw-2 py-vh-5">
                     <div className="row d-flex align-items-center">
 
-                        <div className="col-12 col-lg-7">
-                            <img className="img-fluid rounded-5 mb-n5 shadow" src="https://themewagon.github.io/klar/img/webp/person9.webp"
-                                width="512" height="512" alt="a nice person" loading="lazy" data-aos="zoom-in-right" />
-                            <img className="img-fluid rounded-5 ms-5 mb-n5 shadow"
-                                src="https://themewagon.github.io/klar/img/webp/person11.webp" width="512" height="512"
+                        <div className="image-gallery">
+                            <img className="img-fluid rounded-5 shadow"
+                                src="https://imgur.com/Ps2J1WZ.png"
                                 alt="another nice person" loading="lazy" data-aos="zoom-in-up" />
+                            <img className="img-fluid rounded-5 shadow"
+                                src="https://imgur.com/yo5pGjR.png"
+                                alt="another nice person" loading="lazy" data-aos="zoom-in-up" />
+                            <img className="img-fluid rounded-5 shadow"
+                                src="https://imgur.com/oZzziPt.png"
+                                alt="another nice person" loading="lazy" data-aos="zoom-in-up" />
+                            <img className="img-fluid rounded-5 shadow"
+                                src="https://imgur.com/eqaYbM1.png"
+                                alt="another nice person" loading="lazy" data-aos="zoom-in-up" />
+
                         </div>
-                        <div className="col-12 col-lg-5 bg-dark rounded-5 py-5 mt-4" data-aos="fade">
+                        <div className="col-12 col-lg-6 bg-dark rounded-5 py-5 mt-4" data-aos="fade">
                             <span className="h5 text-secondary fw-lighter pl-5">Detrás de cada proyecto.</span>
                             <h2 className="display-3 pl-5">En Emblema Digital nos enorgullecen las amistades que hemos creado con nuestro equipo y clientes.</h2>
                             <h2 className="display-3 pl-5 mt-5">Somos un equipo de personas apasionadas por emprender y trabajar juntas para enfrentar cualquier desafío.</h2>
@@ -238,29 +246,29 @@ const Hero = () => {
 
             <div className="container-fluid px-vw-5 position-relative" data-aos="fade">
                 <div className="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
-                <div className="position-relative py-vh-5 bg-cover bg-center rounded-5 mb-4">
+                <div className="position-relative py-vh-2 bg-cover bg-center rounded-5 mb-4">
                     <div className="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
-                        <div className="row d-flex align-items-center">
+                        <div className="row d-flex align-items-start">
                             <div className="col-lg-4 col-sm-12">
-                                <span className="h5 text-secondary fw-lighter">The numbers</span>
-                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">+400</h2>
+                                {/* <span className="h5 text-secondary fw-lighter">The numbers</span> */}
+                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">+100</h2>
                                 <p className="h4 fw-lighter text-secondary">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                                    proyectos exitosos.
                                 </p>
                             </div>
 
                             <div className="col-lg-4 col-sm-12">
-                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">78.981
+                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">+90.000
                                 </h2>
                                 <p className="h4 fw-lighter text-secondary">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                                    usuarios alcanzados en campañas publicitarias.
                                 </p>
                             </div>
 
                             <div className="col-lg-4 col-sm-12">
-                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">98%</h2>
+                                <h2 className="display-huge display-huge-left fw-bolder" data-aos="zoom-in-left">100%</h2>
                                 <p className="h4 fw-lighter text-secondary">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                                    de proyectos entregados a tiempo.
                                 </p>
                             </div>
                         </div>
@@ -317,10 +325,10 @@ const Hero = () => {
                                 </div>
                                 <p className="text-secondary lead">&quot;¡Me encanta cómo trabajaron en mi sitio web! Desde el diseño hasta la funcionalidad, todo quedó increíble. ¡Gracias, equipo de Emblema Digital, por hacer que mi negocio brille en línea!&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-                                    <img src="https://themewagon.github.io/klar/img/webp/person14.webp" width="96" height="96"
+                                    <img src="https://imgur.com/TQHLhr0.png" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />
                                     <div>
-                                        <span className="h6 fw-5">Carlos M.</span><br />
+                                        <span className="h6 fw-5">CasaMia Novedades</span><br />
                                         <small className="text-secondary">Lima, Perú.</small>
                                     </div>
                                 </div>
@@ -437,9 +445,9 @@ const Hero = () => {
                             <span className="h5 text-secondary fw-lighter">¿En qué podemos ayudarte?</span>
                             <h2 className="display-4">Será un placer conocerte y conocer más sobre tu proyecto.</h2>
                         </div>
-                        <div className="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
+                        <div className="form-container col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
                             <h2 className="display-huge mb-5">
-                                <span className="fs-4 me-2 fw-light">Contáctanos</span>
+                                <span className="fs-3 me-2 fw-light">Contáctanos</span>
                             </h2>
 
                             <div className="inputForm">

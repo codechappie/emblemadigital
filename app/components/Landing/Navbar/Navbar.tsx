@@ -64,6 +64,13 @@ const Navbar = () => {
                     className="btn btn-outline-light">
                     <small>Contactanos</small>
                 </Link>
+
+                <Link href="https://wa.me/51986970093?text=Hola%2C+me+pueden+brindar+mas+informaci%C3%B3n" target='_blank' aria-label="Check this"
+                    className="btn btn-outline-light">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </Link>
             </div>
         </nav>
     )

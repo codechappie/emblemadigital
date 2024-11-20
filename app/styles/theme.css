@@ -111,6 +111,10 @@ body {
   background: var(--background);
 }
 
+.display-inline {
+  display:  inline;
+}
+
 .bi-arrow-right-circle {
   display: inline-block;
 }
@@ -978,6 +982,7 @@ button:not(:disabled) {
   color: var(--bs-navbar-active-color);
 }
 
+
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
@@ -1326,7 +1331,6 @@ button:not(:disabled) {
 }
 
 .fs-4 {
-  display: flex;
   font-size: calc(1.305rem + 0.66vw) !important;
 }
 
@@ -1817,5 +1821,17 @@ body[data-aos-duration="3000"] [data-aos] {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar .btn {
+    display: none;
   }
 }

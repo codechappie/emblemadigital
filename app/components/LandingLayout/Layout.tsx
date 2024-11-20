@@ -1,11 +1,13 @@
+"use client"
 import React, { PropsWithChildren } from 'react'
 import Footer from '../Landing/Footer/Footer'
 import Navbar from '../Landing/Navbar/Navbar'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Head from 'next/head';
 
-const Layout: React.FC<PropsWithChildren> = ({ children }) => {
+const Layout = ({ children }: any) => {
 
     useEffect(() => {
         AOS.init({
@@ -17,6 +19,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 
     return (
         <>
+
             <Navbar />
             {children}
             <Footer />

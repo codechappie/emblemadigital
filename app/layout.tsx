@@ -1,6 +1,10 @@
 import localFont from "next/font/local";
 import "./styles/globals.css";
 import "./styles/theme.css";
+import { Html } from "next/document";
+import Head from "next/head";
+import { Metadata } from "next";
+
 
 const Inter = localFont({
   src: [
@@ -24,12 +28,14 @@ const Inter = localFont({
 });
 
 export default function RootLayout({
+  metadata,
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode; metadata: Metadata;
 }>) {
   return (
     <html lang="en">
+
       <body
         className={`${Inter.variable} bg-black text-white mt-0 antialiased`}
       >

@@ -5,9 +5,10 @@ import React from 'react'
 const Hero = () => {
     return (
         <main>
-            <div className="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
+            <div className="w-100 overflow-hidden position-relative bg-black text-white"
+                data-aos="fade">
                 <div className="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
-                <div className="container py-vh-4 position-relative mt-5 px-vw-3 text-center">
+                <div className="container py-vh-3 position-relative mt-5 px-vw-3 text-center">
                     <div className="row d-flex align-items-center justify-content-center py-vh-5">
                         <div className="col-12 col-xl-10">
                             <span className="h5 text-secondary fw-lighter">Nuestra Misión</span>
@@ -36,7 +37,9 @@ const Hero = () => {
                     <div className="web-gallery row d-flex align-items-center position-relative justify-content-center px-0 g-5">
                         <div className="col-12 col-lg-3">
                             <img src="https://imgur.com/7mQ21W3.png"
-                                alt="abstract image" className="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
+                                alt="abstract image" className="img-fluid position-relative rounded-5 shadow"
+                                data-aos-duration="2000"
+                                data-aos="fade-up" />
                         </div>
                         <div className="col-12 col-lg-5 col-md-6 col-lg-3">
                             <img src="https://imgur.com/uqM0wcv.png"

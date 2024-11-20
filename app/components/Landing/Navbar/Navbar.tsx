@@ -1,9 +1,10 @@
 "use client"
 import Link from 'next/link';
 import React from 'react'
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
+    const [menuIsOpen, setmenuIsOpen] = useState(false);
 
     useEffect(() => {
         let scrollpos = window.scrollY;
@@ -26,8 +27,9 @@ const Navbar = () => {
 
     }, []);
 
+
     return (
-        <nav id="navScroll" className="navbar navbar-dark bg-black fixed-top px-vw-5" tabIndex={0}>
+        <nav id="navScroll" className={`${menuIsOpen && "navMenuOpen"}  navbar navbar-dark bg-black fixed-top px-vw-5`} tabIndex={0}>
             <div className="container">
                 <Link className="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="/">
                     <img src="/logo.png" alt="" />
@@ -65,12 +67,14 @@ const Navbar = () => {
                     <small>Contactanos</small>
                 </Link>
 
-                <Link href="https://wa.me/51986970093?text=Hola%2C+me+pueden+brindar+mas+informaci%C3%B3n" target='_blank' aria-label="Check this"
-                    className="btn btn-outline-light">
+                <button
+                    className="btn-menu"
+                    onClick={() => setmenuIsOpen(!menuIsOpen)}
+                >
                     <span></span>
                     <span></span>
                     <span></span>
-                </Link>
+                </button>
             </div>
         </nav>
     )

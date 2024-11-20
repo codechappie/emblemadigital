@@ -934,6 +934,25 @@ button:not(:disabled) {
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
+.navbar .btn-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 60px;
+  height: 55px;
+  position: relative;
+  display: none;
+}
+.navbar .btn-menu span{
+  display: flex;
+  width: 40px;
+  height: 5px;
+  background-color: var(--foreground);
+  border-radius: 5px;
+}
+
 .navbar > .container,
 .navbar > .container-fluid {
   display: flex;
@@ -1827,11 +1846,62 @@ body[data-aos-duration="3000"] [data-aos] {
 
 
 @media screen and (max-width: 1280px) {
-  .navbar-nav {
-    display: none;
-  }
+  
 
+  .navbar .btn-menu {
+    display: flex;
+  }
   .navbar .btn {
     display: none;
   }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    opacity: 0;
+    inset: 0;
+    top: -100%;
+    transition: all ease-in-out .3s;
+  }
+  .navMenuOpen .navbar-nav {
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    inset: 0;
+    top: 132px;
+    opacity: 1;
+    transition: all ease-in-out .3s;
+    margin: 0!important;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 20px auto;
+    margin: 20px auto;
+  }
+
+  .navMenuOpen .btn-menu span:nth-child(3) {
+  opacity: 0;    
+  transition: all ease-in-out .3s;
+  }
+
+  .navMenuOpen .btn-menu span:nth-child(1) {
+    transform: rotateZ(45deg) translateY(3px) translatex(4px);
+    transition: all ease-in-out .3s;
+  }
+
+  .navMenuOpen .btn-menu span:nth-child(2) {
+    transform: rotateZ(135deg) translateY(3px) translatex(-3px);
+    transition: all ease-in-out .3s;
+  }
+
+  .btn-menu span {
+    opacity: 1;
+    transition: all ease-in-out .3s;
+  }
+
+  .navbar-brand {
+    width: auto;
+  }
+
 }

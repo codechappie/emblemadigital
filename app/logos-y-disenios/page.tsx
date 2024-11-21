@@ -33,60 +33,51 @@ export default function Page() {
                         </div>
                         <div className="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
                             <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/9F5DoqJ.jpg" width="582" height="390"
-                                    alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
-                                <div className="p-5">
-                                    <h2 className="fw-lighter">Esios - Red Eléctrica de España</h2>
-                                    <p className="pb-4 text-secondary">Migración de aplicación web a tecnologías modernas, maquetación, optimización y consumo de servicios web para mostrar gráficos y detalles interactivos.</p>
-                                    <a href="https://www.esios.ree.es/es" className="link-fancy link-fancy-light">Ver proyecto</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
-                            <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/DLlEpx1.jpg" width="582" height="327"
+                                <img src="https://i.imgur.com/TQHLhr0.jpeg" width="582" height="390"
                                     alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                 <div className="p-5">
                                     <h2 className="fw-lighter">CasaMia Novedades</h2>
-                                    <p className="pb-4 text-secondary">Desarrollamos una tienda en línea personalizada para Casa Mía, mostrando sus productos de importación a nivel nacional.</p>
+                                    <p className="pb-4 text-secondary"> Venta por menor y mayor de novedades para el hogar y tecnología, envíos a nivel nacional.</p>
                                     <a href="https://casamiahogar.com/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="card bg-transparent" data-aos="zoom-in-up">
+                        <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
                             <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/nyDcHbo.jpg" width="582" height="327"
+                                <img src="https://i.imgur.com/NTff8WP.jpeg" width="582" height="327"
                                     alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                 <div className="p-5">
-                                    <h2 className="fw-lighter">Curriculum - Herramienta</h2>
-                                    <p className="pb-4 text-secondary">Desarrollamos una herramienta web para crear y personalizar currículums en línea, permitiendo tener su CV en linea y actualizable en todo momento.</p>
-                                    <a href="https://arcadepapel.net/" className="link-fancy link-fancy-light">Ver proyecto</a>
+                                    <h2 className="fw-lighter">ABRINPE E.I.R.L</h2>
+                                    <p className="pb-4 text-secondary">ABRINPE E.I.R.L es una empresa importadora y comercializadora de productos
+                                        Abrasivos en general que desarrolla sus actividades en la ciudad de lima Perú.</p>
+                                    <a href="https://www.instagram.com/abrinpe/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                     <div className="col-12 col-md-6">
                         <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
                             <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/meIn4Rf.jpg" width="582" height="327"
+                                <img src="https://i.imgur.com/oZzziPt.jpeg" width="582" height="327"
                                     alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                 <div className="p-5">
-                                    <h2 className="fw-lighter">Arca de Papel - Editorial</h2>
-                                    <p className="pb-4 text-secondary">Desarrollamos a medida la página web de Arca de Papel, utilizando código moderno y tecnologías actuales para ofrecer un diseño personalizado, optimizado y adaptado a todas las plataformas.</p>
-                                    <a href="https://arcadepapel.net/" className="link-fancy link-fancy-light">Ver proyecto</a>
+                                    <h2 className="fw-lighter">Laboratorio virtual optico</h2>
+                                    <p className="pb-4 text-secondary">Óptica virtual conformada con los mejores laboratorios ópticos, nuestro principal objetivo es brindar salud visual al mejor precio.</p>
+                                    <a href="https://www.facebook.com/laboratoriovirtualoptico/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
                             <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/CnaYDX6.jpg" width="582" height="442"
+                                <img src="https://i.imgur.com/eqaYbM1.jpeg" width="582" height="442"
                                     alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                 <div className="p-5">
-                                    <h2 className="fw-lighter">Lidia React Editor - Herramienta</h2>
-                                    <p className="pb-4 text-secondary">Desarrollamos un editor de texto enriquecido a medida para React, con funciones configurables y optimizadas para una edición avanzada.</p>
+                                    <h2 className="fw-lighter">FEYKAS PERU</h2>
+                                    <p className="pb-4 text-secondary">Una empresa Autorizada por el Ministerio de Transportes y Comunicaciones, para TI.</p>
                                     <a href="https://lidia-editor.codechappie.com/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                 </div>
                             </div>
@@ -94,12 +85,12 @@ export default function Page() {
 
                         <div className="card bg-transparent" data-aos="zoom-in-up">
                             <div className="bg-dark shadow rounded-5 p-0">
-                                <img src="https://imgur.com/PDF3Xxe.jpg" width="582" height="442"
+                                <img src="https://i.imgur.com/yo5pGjR.jpeg" width="582" height="327"
                                     alt="abstract image" className="img-fluid rounded-5 no-bottom-radius" loading="lazy" />
                                 <div className="p-5">
-                                    <h2 className="fw-lighter">Policia Huanuco</h2>
-                                    <p className="pb-4 text-secondary">Desarrollamos una página web informativa para la Policía de Huánuco, brindando acceso rápido a noticias, servicios y recursos importantes para la comunidad.</p>
-                                    <a href="https://pagina.policiapataamarilla.com" className="link-fancy link-fancy-light">Ver proyecto</a>
+                                    <h2 className="fw-lighter">PRONASA SAC</h2>
+                                    <p className="pb-4 text-secondary">Es una Empresa dedicada al Alquiler y Venta de Equipos Médicos con Servicio a Domicilio.</p>
+                                    <a href="https://www.facebook.com/Pronasasalud/" className="link-fancy link-fancy-light">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>

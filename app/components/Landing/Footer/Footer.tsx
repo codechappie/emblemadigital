@@ -13,34 +13,34 @@ const Footer = () => {
 
                     </div>
                     <div className="col border-end border-dark">
-                        <span className="h6">Company</span>
+                        <span className="h6">Agencia</span>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">About us</a>
+                                <a href="/nosotros" className="link-fancy link-fancy-light">Nosotros</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="#" className="link-fancy link-fancy-light">Legal</a>
                             </li>
 
                             <li className="nav-item">
                                 <a href="#" className="link-fancy link-fancy-light">Career</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">Contact</a>
+                                <a href="#" className="link-fancy link-fancy-light">Contacto</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col border-end border-dark">
-                        <span className="h6">Services</span>
+                        <span className="h6">Servicios</span>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">Pricing</a>
+                                <a href="/logos-y-disenios" className="link-fancy link-fancy-light">Logos y Diseños</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">Products</a>
+                                <a href="/proyectos" className="link-fancy link-fancy-light">Desarrollo web</a>
                             </li>
 
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="#" className="link-fancy link-fancy-light">Customers</a>
                             </li>
                             <li className="nav-item">
@@ -51,32 +51,29 @@ const Footer = () => {
                             </li>
                             <li className="nav-item">
                                 <a href="#" className="link-fancy link-fancy-light">More</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="col">
-                        <span className="h6">Support</span>
+                        <span className="h6">Soporte</span>
                         <ul className="nav flex-column">
-                            <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">About us</a>
-                            </li>
                             <li className="nav-item">
                                 <a href="#" className="link-fancy link-fancy-light">Legal</a>
                             </li>
 
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">Career</a>
+                                <a href="#" className="link-fancy link-fancy-light">Carreras</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="link-fancy link-fancy-light">Contact</a>
+                                <a href="#" className="link-fancy link-fancy-light">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="container text-center small py-vh-2 border-top border-dark">Made by {" "}
-                <a href="https://emblemadigital.com" className="link-fancy link-fancy-light" target="_blank">emblemadigital.com</a>{" "}
-                Distributed by <a href="https://emblemadigital.com" className="link-fancy link-fancy-light" target="_blank">Emblema Digital</a>
+            <div className="container text-center small py-vh-2 border-top border-dark">Hecho por {" "}
+                <a href="https://emblemadigital.com" className="link-fancy link-fancy-light" target="_blank">emblemadigital.com</a>.{" "}
+                © Copyright 2024 <a href="https://emblemadigital.com" className="link-fancy link-fancy-light" target="_blank">Emblema Digital</a>
             </div>
         </footer>
     )

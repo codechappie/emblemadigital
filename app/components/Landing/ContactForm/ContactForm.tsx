@@ -1,6 +1,5 @@
 "use client"
-import Link from 'next/link'
-import React, { useState } from 'react'
+import { useState } from 'react';
 
 const ContactForm = () => {
     const [name, setName] = useState("");

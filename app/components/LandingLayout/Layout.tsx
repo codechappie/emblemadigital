@@ -1,11 +1,11 @@
 "use client"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { PropsWithChildren, useEffect } from "react";
 import Footer from '../Landing/Footer/Footer';
 import Navbar from '../Landing/Navbar/Navbar';
 
-const Layout = ({ children }: any) => {
+const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 
     useEffect(() => {
         AOS.init({

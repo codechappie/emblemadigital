@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import localFont from "next/font/local";
 import "./styles/globals.css";
 import "./styles/theme.css";
@@ -26,10 +25,9 @@ const Inter = localFont({
 });
 
 export default function RootLayout({
-  metadata,
   children,
 }: Readonly<{
-  children: React.ReactNode; metadata: Metadata;
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">

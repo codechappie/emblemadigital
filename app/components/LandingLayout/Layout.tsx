@@ -1,11 +1,9 @@
 "use client"
-import React, { PropsWithChildren } from 'react'
-import Footer from '../Landing/Footer/Footer'
-import Navbar from '../Landing/Navbar/Navbar'
-import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Head from 'next/head';
+import { useEffect } from "react";
+import Footer from '../Landing/Footer/Footer';
+import Navbar from '../Landing/Navbar/Navbar';
 
 const Layout = ({ children }: any) => {
 

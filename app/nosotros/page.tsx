@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Layout from '../components/LandingLayout/Layout'
+import ContactForm from '../components/Landing/ContactForm/ContactForm';
 
 export const metadata: Metadata = {
     title: "Nosotros | Emblema Digital | Potenciamos tu marca en el entorno digital",
@@ -119,7 +120,7 @@ const page = () => {
                     </div>
                 </div>
             </main>
-
+            <ContactForm />
         </Layout>
     )
 }

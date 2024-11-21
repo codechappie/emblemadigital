@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React from 'react'
+import ContactForm from '../ContactForm/ContactForm'
 
 const Hero = () => {
     return (
@@ -379,7 +380,7 @@ const Hero = () => {
                                 </div>
                                 <p className="lead">&quot;¡Excelente servicio! La comunicación fue super clara y siempre estuvieron pendientes de mis necesidades. Definitivamente recomiendo a Emblema Digital a todos los emprendedores que buscan calidad y dedicación.&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top pt-3">
-                                    <img src="https://themewagon.github.io/klar/img/webp/person16.webp" width="96" height="96"
+                                    <img src="https://medicos.com.bo/wp-content/uploads/2023/01/1.jpg" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />
                                     <div>
                                         <span className="h6 fw-5">Lizbeth R.</span><br />
@@ -427,7 +428,7 @@ const Hero = () => {
                                 </div>
                                 <p className="lead">&quot;Me ayudaron con el diseño de mi logo, sino también a estructurar toda mi estrategia digital. ¡El cambio en mi negocio ha sido brutal! Super agradecido con todo el equipo.&quot;</p>
                                 <div className="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-                                    <img src="https://themewagon.github.io/klar/img/webp/person13.webp" width="96" height="96"
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_k2c7w8vLceh84fDLvPnbaTw-j-j-Hg_qoA&s" width="96" height="96"
                                         className="rounded-circle me-3" alt="a nice person" data-aos="fade" loading="lazy" />
                                     <div>
                                         <span className="h6 fw-5">Andrés F.</span><br />
@@ -441,45 +442,7 @@ const Hero = () => {
 
             </div>
 
-            <div className="bg-black">
-                <div className="container px-vw-5 py-vh-2">
-                    <div className="row d-flex align-items-center">
-                        <div className="col-12 col-lg-5 text-center text-lg-end" data-aos="zoom-in-right">
-                            <span className="h5 text-secondary fw-lighter">¿En qué podemos ayudarte?</span>
-                            <h2 className="display-4">Será un placer conocerte y conocer más sobre tu proyecto.</h2>
-                        </div>
-                        <div className="form-container col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
-                            <h2 className="display-huge mb-5">
-                                <span className="fs-3 me-2 fw-light">Contáctanos</span>
-                            </h2>
-
-                            <div className="inputForm">
-                                <label htmlFor="#">Nombre</label>
-                                <input type="text" />
-                            </div>
-
-                            <div className="inputForm">
-                                <label htmlFor="#">Teléfono</label>
-                                <input type="text" />
-                            </div>
-
-                            <div className="inputForm">
-                                <label htmlFor="#">Cuentanos tu idea</label>
-                                <textarea ></textarea>
-                            </div>
-
-                            <Link href="#" className="form-btn btn btn-xl btn-light">Más información
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    className="arrow-inline bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fillRule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <ContactForm />
 
         </main>
     )

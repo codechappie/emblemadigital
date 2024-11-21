@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Layout from '../components/LandingLayout/Layout';
+import ContactForm from '../components/Landing/ContactForm/ContactForm';
 
 
 export const metadata: Metadata = {
@@ -107,5 +108,8 @@ export default function Page() {
 
             </div>
         </div>
+
+        <ContactForm />
+
     </Layout>;
 }
